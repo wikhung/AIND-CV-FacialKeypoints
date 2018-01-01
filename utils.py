@@ -37,17 +37,18 @@ def load_data(test=False):
 
     return X, y
 
-def plot_data(img, landmarks, axis):
+def plot_data(img, landmarks, axis, color = 'c'):
     """
     Plot image (img), along with normalized facial keypoints (landmarks)
     """
     axis.imshow(np.squeeze(img), cmap='gray') # plot the image
     landmarks = landmarks * 48 + 48 # undo the normalization
     # Plot the keypoints
+    # Added color parameter for comparison plots
     axis.scatter(landmarks[0::2], 
         landmarks[1::2], 
         marker='o', 
-        c='c', 
+        c=color,
         s=40)
 
 def plot_keypoints(img_path, 
