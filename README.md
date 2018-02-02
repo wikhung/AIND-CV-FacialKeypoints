@@ -6,7 +6,7 @@
 # Facial Keypoint Detection and Real-time Filtering
 
 ## Project Overview
-This repository is my solution to the Computer Vision capstone project in the AI Nanodegree program. This project involves three components. 
+This repository is my solution to the Computer Vision capstone project in the AI Nanodegree program. The solution is completed in the [iPython notebook](https://github.com/wikhung/CV-Facial-Keypoints/blob/master/CV_project.ipynb) with three components. 
 
 __Part 1__: Preprocessed images and employed facial detection algorithm using OpenCV
 
